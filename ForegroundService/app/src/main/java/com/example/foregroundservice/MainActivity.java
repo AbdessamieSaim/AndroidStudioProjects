@@ -1,5 +1,6 @@
 package com.example.foregroundservice;
 import android.Manifest;
+import android.content.BroadcastReceiver;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.os.Build;
@@ -37,4 +38,7 @@ public class MainActivity extends AppCompatActivity {
             startService(serviceIntent);
         }
     }
+
+
+
 }
